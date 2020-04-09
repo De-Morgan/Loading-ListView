@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loadinglistview/loadinglistview.dart';
-import 'package:loadinglistview/widgets/value.dart';
 
-import 'profile_example.dart';
-import 'restaurant_example.dart';
 import 'youtube_example.dart';
 
 void main() => runApp(MyApp());

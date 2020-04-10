@@ -11,7 +11,7 @@ class Food {
 class RestaurantExample extends StatelessWidget {
   Future<List<Food>> loadFood() async {
     // Simulate slow network call
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 10));
     var foods = <Food>[];
     for (int i = 1; i < 11; i++) {
       foods.add(Food(" Delicious Pizza $i ", "assets/pizza.jpg"));

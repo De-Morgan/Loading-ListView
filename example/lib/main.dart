@@ -12,8 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ColleagueExample(),
-      //home: RestaurantExample(),
+      // home: ColleagueExample(),
+      home: RestaurantExample(),
+      // home: YouTubeExample(),
+      //home: FriendRequestExample(),
     );
   }
 }
